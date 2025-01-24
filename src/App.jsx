@@ -1,8 +1,12 @@
 import './App.css';
+import {countSoldItems} from "../utils/countitems.js";
 
 function App() {
+
+  countSoldItems();
   return (
-    <h1>Begin hier met met maken van de applicatie!</h1>
+    <h1>test</h1>
+
   )
 }
 
