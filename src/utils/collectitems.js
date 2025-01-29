@@ -13,7 +13,9 @@ export function collectBrandItems(spotlightTv) {
     }
     return nextArray[spotlightTv]
 }
-
+// Om 2c te kunnen volbrengen eerst deze functie gemaakt. Vervolgens
+// van alles geprobeerd met if, else en for loops .. te omslachtig.
+//Toen kwam ik via via op een andere functie waar ik deze functie wel bij kon gebruiken
 export function collectSizeItems(sizeTv) {
     let nextArrayItem = a.availableSizes;
     let nextArray = [];
@@ -26,7 +28,7 @@ export function collectSizeItems(sizeTv) {
 }
 
 // Hier ben ik erg lang mee bezig geweest .. gezocht naar een functie die binnen een arrayitem
-// de items kon aanpassen
+// de items kon aanpassen, eerst met if else functies geprobeerd maar dat lukte niet zonder een gigantische hoeveelheid code
 export function formatSizeItems(sizeTv) {
     let nextArrayItem = a.availableSizes.map(size => {
         const sizeInCm = Math.round(size * 2.54);
@@ -41,7 +43,6 @@ export function formatSizeItems(sizeTv) {
         }).join(" | ");
         nextArray.push(nextArrayItem);
     }
-    console.log(nextArray[sizeTv]);
     return nextArray[sizeTv];
 }
 

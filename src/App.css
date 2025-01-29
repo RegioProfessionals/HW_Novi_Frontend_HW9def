@@ -1,4 +1,9 @@
-
+main {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;
+}
 
 .sold {
     color: green;
@@ -9,9 +14,26 @@
 .stock {
     color: darkred;
 }
-
+.bestSellingTv {
+    display: flex;
+    flex-direction: row;
+}
 .spotlighttv {
-    color: black;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 40px;
+    border: dashed 1px;
+    border-radius: 4px;
+    background-color: white;
+    width: 1200px;
+    padding: 40px;
+    margin: auto;
+}
+.innerTextBlock {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
 }
 
 .eurosign {
@@ -22,6 +44,3 @@
     color: black;
 }
 
-.screenitems {
-    color: rebeccapurple;
-}
