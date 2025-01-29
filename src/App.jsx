@@ -48,6 +48,22 @@ function App() {
                 <p>{spotlightTv}</p>
                 <p className="price"><span className="eurosign">{valutaSign}</span>{priceTv}</p>
                 <p className="formatteditem">{formattedSizeTv}</p>
+                <div className="iconListSpecs">
+                    <div className="checkHeightIcon">
+                    <img src="../src/assets/check.png" height="18px" width ="18px" alt="icon+" />
+                    </div>
+                    <div className="checkHeightText">
+                    <p>wifi</p>
+                    </div>
+                    <img src="../src/assets/minus.png" height="18px" width ="18px" alt="icon-" />
+                    <p>speech</p>
+                    <img src="../src/assets/check.png" height="18px" width ="18px" alt="icon+" />
+                    <p>hdr</p>
+                    <img src="../src/assets/check.png" height="18px" width ="18px" alt="icon+" />
+                    <p>bluetooth</p>
+                    <img src="../src/assets/minus.png" height="18px" width ="18px" alt="icon-"/>
+                    <p>ambilight</p>
+                </div>
                 </div>
             </article>
             </div>

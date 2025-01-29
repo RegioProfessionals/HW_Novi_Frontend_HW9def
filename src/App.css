@@ -35,6 +35,18 @@ main {
     flex-direction: column;
     padding-top: 100px;
 }
+.iconListSpecs {
+    border: dashed 1px;
+    display: flex;
+}
+.checkHeightIcon {
+    border: dashed 1px;
+    vertical-align: middle;
+}
+.checkHeightText {
+    border: dashed 1px;
+
+}
 
 .eurosign {
     color: red;
