@@ -6,6 +6,7 @@
 
 }
 .soldProducts-container {
+    color: green;
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -16,6 +17,7 @@
 }
 
 .boughtProducts-container {
+        color:  blue;
         display: flex;
         flex-direction: column;
         width: 300px;
@@ -24,6 +26,7 @@
         background-color: #b7cff7;
 }
 .stockProducts-container {
+    color: darkred;
     display: flex;
     flex-direction: column;
     width: 300px;
