@@ -38,15 +38,10 @@ main {
 .iconListSpecs {
     border: dashed 1px;
     display: flex;
+    align-items: center;
+    gap: 5px;
 }
-.checkHeightIcon {
-    border: dashed 1px;
-    vertical-align: middle;
-}
-.checkHeightText {
-    border: dashed 1px;
 
-}
 
 .eurosign {
     color: red;
