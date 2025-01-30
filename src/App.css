@@ -1,7 +1,9 @@
 .outer-containerSales {
     display: flex;
-    flex-direction: row-reverse;
-    border: dashed 1px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 60px 60px;
+
 }
 .soldProducts-container {
     display: flex;
@@ -12,9 +14,7 @@
     background-color: #aedea9;
 
 }
-.test {
-    border: solid 1px green;
-}
+
 .boughtProducts-container {
         display: flex;
         flex-direction: column;

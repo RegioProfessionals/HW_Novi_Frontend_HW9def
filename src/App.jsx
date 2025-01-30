@@ -23,8 +23,7 @@ function App() {
 
     return (
         <>
-            <div className="outer-containersales">
-                <p className="test"> waar staat dit</p>
+            <div className="outer-containerSales">
             <div className="soldProducts-container">
                 <h1>Aantal verkochte producten</h1>
                 <article className="sold">
