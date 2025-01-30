@@ -1,8 +1,35 @@
-main {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: lightcoral;
+.outer-containerSales {
+    display: flex;
+    flex-direction: row-reverse;
+    border: dashed 1px;
+}
+.soldProducts-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    border: solid 1px green;
+    background-color: #aedea9;
+
+}
+.test {
+    border: solid 1px green;
+}
+.boughtProducts-container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        text-align: center;
+        border: solid 1px blue;
+        background-color: #b7cff7;
+}
+.stockProducts-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    border: solid 1px darkred;
+    background-color: #f7807c;
 }
 
 .sold {
@@ -17,8 +44,11 @@ main {
 .bestSellingTv {
     display: flex;
     flex-direction: row;
+    margin: 60px;
+    border: dashed 1px black;
 }
 .spotlighttv {
+
     display: flex;
     flex-direction: row;
     align-content: space-around;

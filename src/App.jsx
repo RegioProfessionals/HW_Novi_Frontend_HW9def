@@ -23,23 +23,26 @@ function App() {
 
     return (
         <>
-            <div className="soldProducts">
+            <div className="outer-containersales">
+                <p className="test"> waar staat dit</p>
+            <div className="soldProducts-container">
                 <h1>Aantal verkochte producten</h1>
                 <article className="sold">
                     <p>{numberOfSoldTVs}</p>
                 </article>
             </div>
-            <div className="boughtProducts">
+            <div className="boughtProducts-container">
             <h1>Aantal ingekochte producten</h1>
             <article className="bought">
                 <p>{numberOfBoughtTVs}</p>
             </article>
             </div>
-            <div className="stockProducts">
-            <h1>Voorraad</h1>
+            <div className="stockProducts-container">
+            <h1>Aantal te verkopen producten</h1>
             <article className="stock">
                 <p>{stillToSell}</p>
             </article>
+            </div>
             </div>
             <div className="bestSellingTv">
             <article className="spotlighttv">
