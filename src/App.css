@@ -35,15 +35,6 @@
     background-color: #f7807c;
 }
 
-.sold {
-    color: green;
-}
-.bought{
-    color: dodgerblue;
-}
-.stock {
-    color: darkred;
-}
 .bestSellingTv {
     display: flex;
     flex-direction: row;
