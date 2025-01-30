@@ -2,9 +2,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 60px 60px;
+    padding: 40px 140px;
 
 }
+
 .soldProducts-container {
     color: green;
     display: flex;
@@ -13,18 +14,21 @@
     text-align: center;
     border: solid 1px green;
     background-color: #aedea9;
+    padding: 20px 20px;
 
 }
 
 .boughtProducts-container {
-        color:  blue;
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-        text-align: center;
-        border: solid 1px blue;
-        background-color: #b7cff7;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    border: solid 1px blue;
+    background-color: #b7cff7;
+    padding: 20px 20px;
 }
+
 .stockProducts-container {
     color: darkred;
     display: flex;
@@ -33,14 +37,16 @@
     text-align: center;
     border: solid 1px darkred;
     background-color: #f7807c;
+    padding: 20px 20px;
 }
 
 .bestSellingTv {
     display: flex;
     flex-direction: row;
     margin: 60px;
-    border: dashed 1px black;
+
 }
+
 .spotlighttv {
 
     display: flex;
@@ -51,16 +57,17 @@
     border-radius: 4px;
     background-color: white;
     width: 1200px;
-    padding: 40px;
+    padding: 30px;
     margin: auto;
 }
+
 .innerTextBlock {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 40px;
 }
+
 .iconListSpecs {
-    border: dashed 1px;
     display: flex;
     align-items: center;
     gap: 5px;
