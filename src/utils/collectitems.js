@@ -46,4 +46,12 @@ export function formatSizeItems(sizeTv) {
     return nextArray[sizeTv];
 }
 
+let brandArray =[];
+export function collectBrands() {
+    brandArray = b.brand.map((brand) => {
+        return (`Merknaam: " + ${brand}`);
+    });
+}
+console.log(brandArray);
+
 

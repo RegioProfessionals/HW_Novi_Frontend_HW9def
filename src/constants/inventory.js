@@ -328,4 +328,66 @@ export let inventory = [
     },
 ];
 
+// Opdracht oefenen met Arrays
+// 1a
+const tvs = inventory.map((banaan) => {
+    return banaan.type;
+});
+console.log(tvs);
+
+// 1b
+const filteredArray = inventory.filter((itemOutOfStock) => {
+            if ((itemOutOfStock.originalStock - itemOutOfStock.sold) === 0) {
+                return true;
+            } else {
+                return false;
+            }
+    });
+console.log(filteredArray);
+
+// 1c
+const filteredTypeArray = inventory.filter((itemType) => {
+    if ((itemType.type) === "NH3216SMART") {
+        return true;
+    } else {
+        return false;
+    }
+});
+console.log(filteredTypeArray);
+
+// 1d
+const conditionalArray = inventory.filter((itemRefresh) => {
+    if ((itemRefresh.refreshRate)>= 100) {
+        return true
+    } else {
+        return false;
+    }
+});
+console.log(conditionalArray);
+
+let resultArray = [];
+for (let i = 0; i < conditionalArray.length; i++) {
+    let arrayItemNext = "name: " + conditionalArray[i].name + ", suitable: true";
+    console.log(arrayItemNext);
+    resultArray.push(arrayItemNext);
+}
+console.log(resultArray);
+
+// 1e
+const gefilterdeTvs = inventory.filter((tv) => {
+    return tv.availableSizes.some((sizeTv) => {
+        return sizeTv >= 65;
+    });
+    });
+console.log(gefilterdeTvs);
+
+// 1f
+const gefilterdeTvsOpAmbilight = inventory.filter((ambilightTv) => {
+    return ambilightTv.options.some((nameTv) => {
+        return (nameTv.name === "ambiLight" && nameTv.applicable === true);
+    })
+})
+console.log(gefilterdeTvsOpAmbilight);
+
+// 2a
 
