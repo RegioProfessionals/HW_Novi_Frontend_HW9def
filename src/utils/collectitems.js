@@ -46,6 +46,10 @@ export function formatSizeItems(sizeTv) {
     return nextArray[sizeTv];
 }
 
+// deel 2 opdracht 2
+// liep hier op vast .. vraag gesteld aan Sam, Sam ziek naar huis, Sam gaf aan: moest bij Daniel zijn.
+// Daniel  reageert niet is offline. Vervolgens bleek ook Rowan en nova niet te reageren.
+// Dus ben met de eindopdracht verder gegaan
 let brandArray =[];
 export function collectBrands() {
     brandArray = b.brand.map((brand) => {
@@ -53,5 +57,7 @@ export function collectBrands() {
     });
 }
 console.log(brandArray);
+
+//
 
 
