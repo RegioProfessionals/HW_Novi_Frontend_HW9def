@@ -19,7 +19,7 @@ function App() {
     let priceTv = priceSpotlightTv.substring(1);
     let formattedSizeTv = formatSizeItems(spotLightNumber);
     const sourceImage = bestSellingTv.sourceImg;
-    const listOfbrandNames = collectBrands();
+    let listOfBrandNames = collectBrands();
 
 
 
@@ -50,7 +50,7 @@ function App() {
                 <div className="bestSellingTv">
                         <div className="bestSellingAndBrands">
                             <article className="spotlighttv">
-                                <img src={sourceImage} alt="Image Best-selling TV"/>
+                                <img className="imageTv" src={sourceImage} alt="Image Best-selling TV"/>
                                 <div className="innerTextBlock">
                                     <h1>{spotlightTv}</h1>
                                     <h1 className="price"><span className="eurosign">{valutaSign}</span>{priceTv},-</h1>
@@ -83,7 +83,7 @@ function App() {
                             </article>
                             <article className="brandNameList">
                                 <h1>Wij verkopen de volgende merken:</h1>
-                                <p>{listOfbrandNames}</p>
+                                <p>{listOfBrandNames}</p>
                             </article>
                         </div>
                     </div>

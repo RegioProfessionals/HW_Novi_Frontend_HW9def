@@ -8,6 +8,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    max-width: 1200px;
     border: dashed 4px black;
 }
 
@@ -16,7 +17,9 @@
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    min-width: 140px;
+    max-width: 200px;
+
     text-align: center;
     border: solid 1px green;
     background-color: #aedea9;
@@ -28,7 +31,8 @@
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    min-width: 140px;
+    max-width: 200px;
     text-align: center;
     border: solid 1px blue;
     background-color: #b7cff7;
@@ -40,7 +44,8 @@
     display: flex;
     border-radius: 8px;
     flex-direction: column;
-    width: 300px;
+    min-width: 140px;
+    max-width: 200px;
     text-align: center;
     border: solid 1px darkred;
     background-color: #f7807c;
@@ -51,15 +56,21 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    border: #f7807c 4px dashed;
+    max-width: 1200px;
+    min-width: 800px;
     margin-top: 60px;
 
 
 }
-
+.imageTv {
+    height: 100%;
+    width: auto;
+    max-width: 350px
+}
 .spotlighttv {
     display: flex;
     flex-direction: row;
-    align-content: space-around;
     gap: 40px;
     border: dashed 1px;
     border-radius: 8px;
@@ -86,6 +97,7 @@
 .innerTextBlock {
     display: flex;
     flex-direction: column;
+    border: deeppink 4px dashed;
     padding-top: 40px;
 }
 
