@@ -1,0 +1,123 @@
+.total-block-container {
+    margin: 0 300px;
+    border: dashed 4px red;
+}
+
+.outer-containerSales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    border: dashed 4px black;
+}
+
+.soldProducts-container {
+    color: green;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    max-width: 200px;
+
+    text-align: center;
+    border: solid 1px green;
+    background-color: #aedea9;
+    padding: 20px 20px;
+}
+
+.boughtProducts-container {
+    color: blue;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    min-width: 140px;
+    max-width: 200px;
+    text-align: center;
+    border: solid 1px blue;
+    background-color: #b7cff7;
+    padding: 20px 20px;
+}
+
+.stockProducts-container {
+    color: darkred;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    min-width: 140px;
+    max-width: 200px;
+    text-align: center;
+    border: solid 1px darkred;
+    background-color: #f7807c;
+    padding: 20px 20px;
+}
+
+.bestSellingTv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: #f7807c 4px dashed;
+    max-width: 1200px;
+    min-width: 800px;
+    margin-top: 60px;
+
+
+}
+.imageTv {
+    height: 100%;
+    width: auto;
+    max-width: 350px
+}
+.spotlighttv {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: dashed 1px;
+    border-radius: 8px;
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+}
+
+.brandNameList {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.bestSellingAndBrands {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    border: dashed 4px orangered;
+}
+
+
+.innerTextBlock {
+    display: flex;
+    flex-direction: column;
+    border: deeppink 4px dashed;
+    padding-top: 40px;
+}
+
+.iconListSpecs {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.eurosign {
+    color: red;
+}
+
+.price {
+    color: black;
+}
+.checkHeightText {
+    /*border: dashed 1px darkgreen;*/
+}
+.checkHeightIcon {
+    /*border: dashed 1px deeppink;*/
+}
